@@ -49,6 +49,7 @@
         '@': path.resolve(__dirname, './src'),
       },
     },
+      base: '/Student-Learning-Portal/',
     build: {
       target: 'esnext',
       outDir: 'build',
