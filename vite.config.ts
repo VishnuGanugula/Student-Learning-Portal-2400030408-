@@ -4,6 +4,7 @@
   import path from 'path';
 
   export default defineConfig({
+       base: '/Student-Learning-Portal/',
     plugins: [react()],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
@@ -49,7 +50,7 @@
         '@': path.resolve(__dirname, './src'),
       },
     },
-      base: '/Student-Learning-Portal/',
+   
     build: {
       target: 'esnext',
       outDir: 'docs',
